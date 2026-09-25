@@ -20,7 +20,7 @@ class AuthController extends Controller
             'password' => ['required', 'string'],
         ], [
             'email.required' => 'Email wajib diisi.',
-            'email.email' => 'Format email tidak valid.',
+            'email.email' => 'Format email tidak bagus.',
             'password.required' => 'Password wajib diisi.',
         ]);
 
